@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    text-align: center;
+    padding-left:10px;
+    padding-right: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+}
+
+.navbar a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar a:hover{
+    background-color:rgb(206, 206, 206);
+}
+
+.header{
+    background: url(./images/polygons.png) no-repeat;
+    background-position: center;
+    padding: 200px 0;
+    text-align: center;
+}
+
+h1, .interesting{
+    color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+}
+
+.about{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-text{
+    width: 700px;
+    text-align: left;
+    margin: auto;
+    padding-right: 500px;
+}
+
+.image{
+    width: 400px;
+    float: right;
+    margin: 30px;
+    margin-top: 0;
+}
+
+.member img{
+    width: 100%;
+}
+
+#team-p{
+    text-align: center;
+}
+
+.button{
+    color: black;
+    background-color: whitesmoke;
+    display: inline-block;
+    border-radius: 7px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.member{
+    box-shadow: 0 2px 5px gray;
+    padding: 12px;
+    margin: 20px 10px;
+    width: 22%;
+    display: inline-block;
+}
+
+.button-member{
+    padding: 5px 0;
+    border-radius: 3px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    background-color: cadetblue;
+    color: rgb(255, 255, 255);
+}
+
+.team{
+    text-align: center;
+}
+
+.text-align{
+    text-align: left;
+}
+
+.prices{
+    padding: 50px 0;
+    color: white;
+    background-color: gray;
+    text-align: center;
+}
+
+.tarif{
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    width: 30%;
+    display: inline-block;
+}
+
+.tarif p{
+    border-bottom: #DDDDDD 1px solid;
+}
+
+.tarif-name{
+    background-color: black;
+    font-size: 34px;
+    padding: 32px 0;
+    color: white;
+    margin: 0;
+}
+
+#best-tarif-name{
+    padding: 37px 0;
+    background-color: teal;
+}
+
+.buy-button{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+#best-tarif{
+    height: 400px;
+    width: 31%;
+}
+
+.contact-info{
+    text-align: left;
+    padding-left: 30px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    margin-left: 5%;
+}
+
+.feedback{
+    background-color: #f1f1f1;
+    padding: 40px 0 20px 0; 
+    text-align: center;
+}
+
+#contact-adress{
+    background-image: url(./images/address.png);
+}
+
+#contact-phone{
+    background-image: url(./images/phone.png);
+}
+
+#contact-mail{
+    background-image: url(./images/mail.png);
+}
+
+input{
+    padding: 8px;
+    width: 90%;
+    margin: 5px;
+}
+
+#send-button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px 16px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+#copyright{
+    margin: 0;
+}
